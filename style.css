@@ -10,6 +10,11 @@ body{
   width: 95vw;
   background-color: rgb(191, 190, 188);
 }
+
+.myPic img{
+  width: 350px;
+  border-radius: 50%;
+}
 .upBtn{
   position: fixed;
   bottom: 0;

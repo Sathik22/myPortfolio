@@ -7,8 +7,11 @@
     align-items: center;
     justify-content: center;
   }
-  .myPic {
-    width: 230px;
+  .myPic{
+    margin-right: 55px;
+  }
+  .myPic img{
+    width: 280px;
     border-radius: 50%;
     transition: 0.5s ease;
   }
@@ -41,6 +44,11 @@
   .menu-links a{
     color: white;
   }
+  
+  .name {
+    font-size: 25px;
+  }
+
   .nav-links {
     display: none;
   }
@@ -120,7 +128,7 @@
   }
 
   .name {
-    font-size: 19px;
+    font-size: 25px;
   }
 
 }
