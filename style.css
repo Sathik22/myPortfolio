@@ -1,66 +1,76 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   box-sizing: border-box;
-
 }
-body{
+
+body {
   align-items: center;
   width: 95vw;
   background-color: rgb(191, 190, 188);
 }
 
-.myPic img{
+.myPic img {
   width: 350px;
   border-radius: 50%;
 }
-.upBtn{
+
+.upBtn {
   position: fixed;
   bottom: 0;
   right: 10px;
   cursor: pointer;
-  
+
   width: 40px;
 }
-#desktop-nav{
+
+#desktop-nav {
   display: flex;
   justify-content: space-around;
   padding: 15px;
   margin-top: 25px;
 }
-.name{
+
+.name {
   font-size: 30px;
   font-weight: 700;
   font-family: sans-serif;
 }
-li a{
+
+li a {
   text-decoration: none;
   color: black;
   font-size: 18px;
 }
-.nav-links{
+
+.nav-links {
   display: flex;
   list-style: none;
   justify-content: space-around;
   gap: 50px;
 }
 
-.hamburger-menu{
+.hamburger-menu {
   display: none;
   position: absolute;
   right: 20px;
 }
-.menuBar{
+
+.menuBar {
   display: block;
 }
-.closeMenu{
+
+.closeMenu {
   display: none;
 }
-#hamburger-nav, .menu-links{
+
+#hamburger-nav,
+.menu-links {
   display: none;
 }
-#profile{
+
+#profile {
   display: flex;
   position: relative;
   width: 90%;
@@ -68,66 +78,75 @@ li a{
   justify-content: space-around;
   padding: 25px;
   align-items: center;
-  animation: FadeIn 3s ;
+  animation: FadeIn 3s;
   margin-bottom: 25px;
 
-  
+
 }
-.myPic{
+
+.myPic {
   width: 350px;
   border-radius: 50%;
   transition: 0.5s ease;
 
 }
-.section__text{
+
+.section__text {
   display: flex;
   flex-direction: column;
   padding-left: 0;
   gap: 15px;
 }
-.section__text p{
+
+.section__text p {
   font-size: 20px;
   text-align: left;
   font-family: sans-serif;
 }
-button{
+
+button {
   padding: 8px;
   border-radius: 15px;
   text-align: center;
   cursor: pointer;
   transition: 0.4s ease-in;
 }
-.btn-container button{
+
+.btn-container button {
   padding: 8px;
   border-radius: 15px;
   text-align: center;
   cursor: pointer;
   transition: 0.4s ease-in;
 }
-button:hover{
+
+button:hover {
   background-color: rgb(1, 58, 58);
   color: wheat;
   transform: scale(1.1);
 
 }
-li:hover{
+
+li:hover {
   border-bottom: 2px solid rgb(236, 236, 236);
   color: white;
   transform: scale(1.1);
 
 }
-.icon{
+
+.icon {
   width: 30px;
   transition: 0.4s ease;
   cursor: pointer;
   margin-left: 10px;
   gap: 5px;
 }
-.icon:hover{
+
+.icon:hover {
   transform: scale(1.3);
 }
 
-#about{
+#about {
   display: flex;
   flex-direction: column;
   padding: 15px;
@@ -136,88 +155,134 @@ li:hover{
   gap: 25px;
 
 }
-.about_header{
+
+.about_header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-margin-bottom: 35px;
+  margin-bottom: 35px;
 
 }
-.certificate_header{
+
+.certificate_header {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 15px;
 }
-.certificate_header h3{
-   font-size: 2em;
-   color: rgb(0, 0, 0);
+
+.certificate_header h3 {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
 }
-.certificate{
+
+.certificate {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 25px;
   gap: 5px;
 }
-.certificate img{
-  width: 350px; 
+
+.certificate img {
+  width: 350px;
   height: 350px;
   border: 2px solid black;
   border-radius: 5px 8px;
   transition: 0.5s ease;
   animation: FadeIn 3s ease;
 
-  
+
 
 }
-.article-container3{
+
+.article-container3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 
 }
-.Skills_header{
+
+#skills {
+  width: 95vw;
+  padding: 4px;
+  margin: 4px;
+}
+
+.Skills_header {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 25px;
 }
-.Skills_header h1{
+
+.Skills_header h1 {
   font-size: 2em;
 }
-.project_container{
+
+.project_container {
   width: 95vw;
   display: flex;
   overflow-x: auto;
   column-gap: 10px;
   margin-left: 35px;
 }
-.project_container img{
+
+.project_container img {
   width: 219px;
   height: 188px;
   transition: 0.5s ease;
 
 }
-.project_header{
+
+.project_header {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 25px;
 }
-.project_header h1{
+
+.project_header h1 {
   font-size: 2em;
 }
 
-.article-container6{
+.article-container6 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 16px;
 }
-.details-container{
+
+.article-container6 article {
+  max-width: 300px;
+  padding: 12px;
+  gap: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(91, 12, 91, 0.496), rgba(130, 22, 22, 0.452));
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.article-container6 article img.icon {
+  width: 40px;
+  height: 40px;
+}
+
+
+.article-container6 article div h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.article-container6 article div p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+.details-container {
   width: 280px;
   height: 380px;
   display: flex;
@@ -228,34 +293,40 @@ margin-bottom: 35px;
   gap: 15px;
   justify-content: center;
   align-items: center;
-  animation: FadeIn 3s ;
+  animation: FadeIn 3s;
   margin-bottom: 25px;
 
 }
-.article-container1{
+
+.article-container1 {
   width: 100%;
   height: auto;
 }
-article{
-  animation: FadeIn 3s ;
+
+article {
+  animation: FadeIn 3s;
 
 }
-.article-container1 img{
+
+.article-container1 img {
   object-fit: fill;
   border-radius: 10px;
-  
+
 }
-.title_container{
+
+.title_container {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 25px;
 }
-.title_container h1{
+
+.title_container h1 {
   font-size: 2em;
 }
-.contact-info-upper-container{
+
+.contact-info-upper-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -263,7 +334,8 @@ article{
   padding: 15px;
   margin-bottom: 25px;
 }
-.contact-info-container{
+
+.contact-info-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -271,7 +343,8 @@ article{
   flex-wrap: wrap;
   margin-bottom: 15px;
 }
-footer{
+
+footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -279,7 +352,7 @@ footer{
 
 
 
-hr{
+hr {
   height: 1.5px;
   background-color: black;
   gap: 15px;
@@ -290,19 +363,19 @@ hr{
   margin-bottom: 25px;
 
 }
-img:hover{
+
+img:hover {
   transform: scale(1.1);
 }
 
-@keyframes FadeIn{
-  0%{
+@keyframes FadeIn {
+  0% {
     opacity: 0;
 
   }
-  100%{
+
+  100% {
     opacity: 1;
 
   }
 }
-
-

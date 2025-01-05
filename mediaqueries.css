@@ -44,6 +44,7 @@
   .menu-links a{
     color: white;
   }
+ 
   
   .name {
     font-size: 25px;
@@ -109,6 +110,11 @@
 
 
 }
+@media (max-width: 768px) {
+  .article-container6 article {
+    flex: 1 1 calc(50% - 32px); /* Switch to 2 columns on medium screens */
+  }
+}
 
 @media screen and (max-width: 650px) {
   #profile {
@@ -131,4 +137,9 @@
     font-size: 25px;
   }
 
+}
+@media (max-width: 480px) {
+  .article-container6 article {
+    flex: 1 1 100%; /* Full width for small screens */
+  }
 }
